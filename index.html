@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lumity AS - Konsulentselskap som gir lys i IT kompleksitet. Vi leverer konsulenttjenester og skaper rask, effektiv og robust programvare.">
+  <title>Lumity AS - Lys i IT kompleksitet</title>
+  <link rel="stylesheet" href="dist/styles.css">
+</head>
+<body class="antialiased">
+  <!-- Navigation -->
+  <nav class="fixed top-0 left-0 right-0 z-50 bg-navy-900/95 backdrop-blur-sm border-b border-navy-700">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="#" class="text-2xl font-bold text-ocean-500">Lumity</a>
+      <button id="mobile-menu-btn" class="md:hidden text-sail-100 p-2" aria-label="Toggle menu">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+      <div id="nav-links" class="hidden md:flex gap-8">
+        <a href="#about" class="link-hover">Om oss</a>
+        <a href="#values" class="link-hover">Verdier</a>
+        <a href="#services" class="link-hover">Tjenester</a>
+        <a href="#clients" class="link-hover">Kunder</a>
+        <a href="#products" class="link-hover">Produkter</a>
+        <a href="#contact" class="link-hover">Kontakt</a>
+      </div>
+    </div>
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-navy-800 border-t border-navy-700">
+      <div class="px-6 py-4 flex flex-col gap-4">
+        <a href="#about" class="link-hover">Om oss</a>
+        <a href="#values" class="link-hover">Verdier</a>
+        <a href="#services" class="link-hover">Tjenester</a>
+        <a href="#clients" class="link-hover">Kunder</a>
+        <a href="#products" class="link-hover">Produkter</a>
+        <a href="#contact" class="link-hover">Kontakt</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="min-h-screen flex items-center justify-center pt-16 relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-b from-navy-900 via-navy-800 to-navy-900"></div>
+    <div class="absolute inset-0 opacity-20">
+      <div class="absolute top-20 left-10 w-72 h-72 bg-ocean-500/30 rounded-full blur-3xl"></div>
+      <div class="absolute bottom-20 right-10 w-96 h-96 bg-lighthouse/20 rounded-full blur-3xl"></div>
+    </div>
+    <div class="max-w-4xl mx-auto px-6 text-center relative z-10">
+      <h1 class="text-5xl md:text-7xl font-bold mb-6 fade-in stagger-1">
+        <span class="text-ocean-500">Lumity</span> AS
+      </h1>
+      <p class="text-xl md:text-2xl text-sail-300 mb-4 fade-in stagger-2">
+        Lys i IT kompleksitet
+      </p>
+      <p class="text-lg text-sail-300/80 max-w-2xl mx-auto mb-8 fade-in stagger-3">
+        Vi leverer konsulenttjenester som programmerere og skaper rask, effektiv, pålitelig og robust programvare.
+      </p>
+      <a href="#contact" class="btn-primary fade-in stagger-4">Ta kontakt</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-navy-800">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="section-title">Om Lumity</h2>
+      <div class="space-y-6 text-sail-200">
+        <p class="text-lg">
+          Lumity AS er et uavhengig konsulentselskap som gir lys i dagens mørke av IT kompleksitet. 
+          Vi tror at enkle løsninger er nøkkelen til robust programvare.
+        </p>
+        <p class="text-lg">
+          Vårt navn reflekterer vår mission: å bringe klarhet og forståelse til komplekse tekniske utfordringer, 
+          akkurat som et fyrtårn veileder sjøfolk trygt i mørket.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Values Section -->
+  <section id="values" class="py-20">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="section-title">Våre verdier</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="card">
+          <div class="text-ocean-500 text-4xl mb-4">◈</div>
+          <h3 class="text-xl font-semibold mb-2 text-sail-100">Enkelhet</h3>
+          <p class="text-sail-300">
+            Vi tror at enkle løsninger er lettere å forstå, vedlikeholde og utvide. 
+            Kompleksitet er fienden.
+          </p>
+        </div>
+        <div class="card">
+          <div class="text-ocean-500 text-4xl mb-4">⚡</div>
+          <h3 class="text-xl font-semibold mb-2 text-sail-100">Presentasjon</h3>
+          <p class="text-sail-300">
+            Rask programvare gir bedre brukeropplevelse og lavere kostnader. 
+            Vi optimaliserer for ytelse.
+          </p>
+        </div>
+        <div class="card">
+          <div class="text-ocean-500 text-4xl mb-4">🛡️</div>
+          <h3 class="text-xl font-semibold mb-2 text-sail-100">Robusthet</h3>
+          <p class="text-sail-300">
+            Pålitelig programvare bygger vi gjennom grundig testing og god arkitektur. 
+            Vi leverer løsninger som varer.
+          </p>
+        </div>
+        <div class="card">
+          <div class="text-ocean-500 text-4xl mb-4">💎</div>
+          <h3 class="text-xl font-semibold mb-2 text-sail-100">Kvalitet</h3>
+          <p class="text-sail-300">
+            God kode er en investering. Vi skriver ren, vedlikeholdbar kode som gir verdi over tid.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-20 bg-navy-800">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="section-title">Våre tjenester</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="card text-center">
+          <div class="text-ocean-500 text-3xl mb-3">💻</div>
+          <h3 class="text-lg font-semibold mb-2 text-sail-100">Programmering</h3>
+          <p class="text-sail-300 text-sm">
+            Konsulenttjenester som erfaren utvikler. Vi bygger skreddersydde løsninger.
+          </p>
+        </div>
+        <div class="card text-center">
+          <div class="text-ocean-500 text-3xl mb-3">🔧</div>
+          <h3 class="text-lg font-semibold mb-2 text-sail-100">Teknisk rådgivning</h3>
+          <p class="text-sail-300 text-sm">
+            Vi hjelper deg med arkitektur, teknologistakk og best practices.
+          </p>
+        </div>
+        <div class="card text-center">
+          <div class="text-ocean-500 text-3xl mb-3">🚀</div>
+          <h3 class="text-lg font-semibold mb-2 text-sail-100">Produktutvikling</h3>
+          <p class="text-sail-300 text-sm">
+            Vi tar idéer fra konsept til ferdig produkt. Raskt og effektivt.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Clients Section -->
+  <section id="clients" class="py-20">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="section-title">Våre kunder</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="card">
+          <h3 class="text-xl font-semibold mb-2 text-sail-100">Fruitful AI</h3>
+          <p class="text-sail-300">
+            Vi jobber med Fruitful AI for å bringe AI-teknologi til norske bedrifter på en praktisk og forståelig måte.
+          </p>
+        </div>
+        <div class="card">
+          <h3 class="text-xl font-semibold mb-2 text-sail-100">Hydopt AS</h3>
+          <p class="text-sail-300">
+            Hydopt AS er en samarbeidspartner hvor vi leverer teknisk ekspertise og programvareutvikling.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products" class="py-20 bg-navy-800">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="section-title">Våre produkter</h2>
+      <div class="card">
+        <div class="flex items-center justify-between flex-wrap gap-4">
+          <div>
+            <h3 class="text-xl font-semibold mb-2 text-sail-100">caesura.no</h3>
+            <p class="text-sail-300">
+              Et av våre egne produkter. Besøk nettsiden for å lære mer.
+            </p>
+          </div>
+          <a href="https://caesura.no" target="_blank" rel="noopener noreferrer" class="btn-primary">
+            Besøk caesura.no →
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20">
+    <div class="max-w-2xl mx-auto px-6 text-center">
+      <h2 class="section-title">Kontakt oss</h2>
+      <p class="text-lg text-sail-200 mb-8">
+        Trenger du hjelp med et prosjekt eller vil bare slå av en prat? 
+        Vi gleder oss til å høre fra deg.
+      </p>
+      <div class="card">
+        <div class="space-y-4">
+          <p class="text-sail-300">
+            <span class="text-sail-100 font-medium">E-post:</span>
+            <a href="mailto:davidkleiven446@gmail.com" class="link-hover ml-2">
+              davidkleiven446@gmail.com
+            </a>
+          </p>
+          <p class="text-sail-300">
+            <span class="text-sail-100 font-medium">Organisasjonsnummer:</span>
+            <span class="ml-2">928 496 049</span>
+          </p>
+        </div>
+        <div class="mt-8 pt-6 border-t border-navy-700">
+          <a href="mailto:davidkleiven446@gmail.com" class="btn-primary">
+            Send oss en e-post
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 bg-navy-800 border-t border-navy-700">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <p class="text-sail-300">
+        © 2024 Lumity AS. Alle rettigheter reservert.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

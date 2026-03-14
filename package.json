@@ -1,0 +1,12 @@
+{
+  "name": "lumity-website",
+  "version": "1.0.0",
+  "description": "Lumity AS - Consultant company website",
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./styles.css -o ./dist/styles.css",
+    "dev:css": "npx tailwindcss -i ./styles.css -o ./dist/styles.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}
